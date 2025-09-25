@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agenda de Citas</title>
+</head>
+<body>
+    <h1>Agendar Cita</h1>
+    <form method="POST">
+        <input type="text" name="nombre" placeholder="Nombre" required><br>
+        <input type="email" name="correo" placeholder="Correo" required><br>
+        <input type="date" name="fecha" required><br>
+        <input type="time" name="hora" required><br>
+
+        <label>Selecciona Doctor:</label>
+        <select name="doctor" required>
+            <option value="Dr. Ramírez">Dr. Ramírez</option>
+            <option value="Dra. López">Dra. López</option>
+            <option value="Cualquiera">Cualquiera (asignado automáticamente)</option>
+        </select><br>
+
+        <button type="submit">Reservar</button>
+    </form>
+</body>
+</html>

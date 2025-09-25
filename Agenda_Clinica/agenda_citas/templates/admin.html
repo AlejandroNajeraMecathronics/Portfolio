@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Panel de Administración</title>
+</head>
+<body>
+    <h1>Citas Agendadas</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Doctor</th>
+            <th>Estado</th>
+        </tr>
+        {% for cita in citas %}
+        <tr>
+            <td>{{ cita.id }}</td>
+            <td>{{ cita.nombre }}</td>
+            <td>{{ cita.correo }}</td>
+            <td>{{ cita.fecha }}</td>
+            <td>{{ cita.hora }}</td>
+            <td>{{ cita.doctor }}</td>
+            <td>{{ cita.estado }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
