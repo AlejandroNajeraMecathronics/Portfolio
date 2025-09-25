@@ -28,7 +28,7 @@ Los pacientes pueden seleccionar fecha, hora y doctor; la administración tiene 
 
 ## 📸 Vista previa
 ![Portal del paciente](Fotos_Sketch/Portal%20del%20paciente.png)
-![Panel de administración](Fotos_Sketch/Panel%20del%20administracion.png)
+![Panel de administracion](Fotos_Sketch/Panel%20del%20administracion.png)
 
 ---
 
